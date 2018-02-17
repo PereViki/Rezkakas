@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeZero">0dp</dimen>
+    <dimen name="sizeXS">8dp</dimen>
+    <dimen name="sizeS">12dp</dimen>
+    <dimen name="sizeM">24dp</dimen>
+    <dimen name="sizeL">36dp</dimen>
+    <dimen name="sizeXL">40dp</dimen>
+    <dimen name="imgHeightPortrait">250dp</dimen>
+    <dimen name="imgHeightLandscape">130dp</dimen>
+    <dimen name="textWidthPortrait">230dp</dimen>
+    <dimen name="iconMarginPortrait">42dp</dimen>
+    <dimen name="typeS">14sp</dimen>
+    <dimen name="typeM">18sp</dimen>
+</resources>

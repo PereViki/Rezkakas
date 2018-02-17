@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style of the image for portrait view -->
+    <style name="mainImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/imgHeightPortrait</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/bg</item>
+    </style>
+
+    <!-- Style of the image for landscape view -->
+    <style name="mainImageLand" parent="mainImage">
+        <item name="android:layout_height">@dimen/imgHeightLandscape</item>
+    </style>
+
+    <!-- Style of the logo for portrait view -->
+    <style name="logo" parent="mainImage">
+        <item name="android:src">@drawable/rezkakas_logo</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <!-- Style of the logo for landscape view -->
+    <style name="logoLand" parent="logo">
+        <item name="android:layout_height">@dimen/imgHeightLandscape</item>
+    </style>
+
+    <!-- Style of the company name for portrait view -->
+    <style name="title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/sizeL</item>
+        <item name="android:layout_marginLeft">@dimen/sizeXL</item>
+        <item name="android:layout_marginBottom">@dimen/sizeS</item>
+        <item name="android:fontFamily">@font/gotham</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/typeM</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style of the company name for landscape view -->
+    <style name="titleLand" parent="title">
+        <item name="android:layout_marginLeft">@dimen/sizeL</item>
+    </style>
+
+    <!-- Style of the icons for landscape view -->
+    <style name="iconStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:padding">@dimen/sizeXS</item>
+        <item name="android:layout_width">@dimen/sizeXL</item>
+        <item name="android:layout_height">@dimen/sizeXL</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginLeft">@dimen/sizeL</item>
+    </style>
+
+    <!-- Style of the icons for portrait view -->
+    <style name="iconStylePortrait" parent="iconStyle">
+        <item name="android:layout_marginLeft">@dimen/iconMarginPortrait</item>
+    </style>
+
+    <!-- Style of the company data text for portrait & landscape view -->
+    <style name="textFieldStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:paddingLeft">@dimen/sizeXS</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/sizeXL</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">@font/gotham</item>
+        <item name="android:textSize">@dimen/typeS</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style of the company description text for portrait & landscape view -->
+    <style name="description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/sizeXL</item>
+        <item name="android:layout_marginRight">@dimen/sizeXL</item>
+        <item name="android:layout_marginBottom">@dimen/sizeM</item>
+        <item name="android:layout_marginTop">@dimen/sizeXS</item>
+        <item name="android:fontFamily">@font/gotham</item>
+        <item name="android:textSize">@dimen/typeS</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:lineSpacingExtra">@dimen/sizeXS</item>
+    </style>
+
+</resources>

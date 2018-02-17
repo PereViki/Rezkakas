@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rézkakas</string>
+    <string name="company_name">Rézkakas Bistro</string>
+    <string name="company_telephone">+36–1–318–0038</string>
+    <string name="company_web">www.rezkakasbistro.hu</string>
+    <string name="company_address">1051 Budapest, Sas utca 3.</string>
+    <string name="company_email">info@rezkakasbistro.hu</string>
+    <string name="content_bg">Rezkakas image</string>
+    <string name="content_logo">Rezkakas logo</string>
+    <string name="content_map">map icon</string>
+    <string name="content_mail">mail icon</string>
+    <string name="content_phone">phone icon</string>
+    <string name="content_web">web icon</string>
+    <string name="company_lat">47.4995936</string>
+    <string name="company_long">19.052559</string>
+    <string name="company_description">
+        High-end bistro with mirrors
+        &amp; white tablecloths serving local veal
+        &amp; beef dishes, plus gypsy music is
+        waiting for you every day
+        from 12:00pm to 12:00am.
+    </string>
+</resources>
